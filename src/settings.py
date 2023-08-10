@@ -21,12 +21,11 @@ PROJECT_NAME_FULL: str = "Heat Sink Surface Defect Dataset"
 ##################################
 LICENSE: License = License.CC_BY_NC_SA_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Domain.Industrial(),
-    Research.SurfaceDefectDetection(),
+    Domain.SurfaceDefectDetection(),
 ]
 CATEGORY: Category = Category.Manufacturing()
 
-CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation(), CVTask.InstanceSegmentation()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"

@@ -13,4 +13,4 @@ If you make use of the Heat Sink Surface Defect Dataset data, please cite the fo
 
 ```
 
-[🔗 Source](https://ieeexplore.ieee.org/document/9814089)
+[Source](https://ieeexplore.ieee.org/document/9814089)
