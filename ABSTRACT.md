@@ -1,3 +1,13 @@
 The authors of the **Heat Sink Surface Defect Dataset** delve into the significance of surface defect detection within industrial production, a factor crucial for product quality and production efficiency.
 
-This dataset contains 1000 images of gold-plated tungsten-copper alloy heat sink surface defects and their annotation.
+The dataset contains 1000 images of gold-plated tungsten-copper alloy heat sink surfaces, with defects and their annotations.
+
+The images are labeled into categories:
+
+* Background (defect-free area)
+* Scratch
+* Stain
+
+In terms of pixel composition of all images, most of the area is by far the background. Stains and scratches only account for 1.7% and 1.3% of all pixels, respectively. This could be concerning as the target classes are so disproportionate and the defects constitute such a small portion of all pixels. It also means that even if the model predicts all pixels as the background it would have an accuracy of 97% already which gives a false illusion of how well the model performs.
+
+Of the 1000 images, every image has labeled defects. 28 images only have scratch. 300 images only have stain. 672 images have both scratch and stain. Around 2/3 of all images have both scratches and stains.
