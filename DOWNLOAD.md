@@ -1,6 +1,6 @@
 Dataset **Heat Sink Surface Defect Dataset** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/r/80/doC2Nl7veqswUaLCoON96LU3XjYqc6yAhJgOXSp6rqgF0pbbFlruuCVtqG8cQ99pSnWVODqdp61YCFPmY6qTH5821aqWY1S3CY0O9W9EakH5x92ewKEe4rcDyc5k.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/f/8/g3/SEaE1EacQQqm0Wu0aBB2l1Z1WC3ZZUBLllBgGkFwwJ4qUut9arhTrWZ1dLZ16w1f9NK8opXflCLt61qbbdq0T2szVtPIRVxoz6cUa9WnGZb2AIUiGpNT37DSCGbZ.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
