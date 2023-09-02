@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Heat Sink Surface Defect Dataset"
+PROJECT_NAME: str = "Heat Sink Surface Defect"
 PROJECT_NAME_FULL: str = "Heat Sink Surface Defect Dataset"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
