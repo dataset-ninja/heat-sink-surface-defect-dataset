@@ -59,6 +59,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 PAPER: Optional[str] = "https://ieeexplore.ieee.org/document/9814089"
 CITATION_URL: Optional[str] = "https://ieeexplore.ieee.org/document/9814089"
 AUTHORS: Optional[List[str]] = ["Yang, Kaifeng", "Liu, Yuliang", "Zhang, Shiwen", "Cao, Jiajian"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["yangkaifeng@xiaomi.com", "kfyang1129@gmail.com"]
 
 ORGANIZATION_NAME: Optional[
     Union[str, List[str]]
@@ -108,6 +109,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
